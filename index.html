@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 7</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <div class="container">
         <div class="topo">
             <h1>Em que número <span>Bia</span> está pensando?</h1>
-            <img src="bia.png" alt="">
+            <img id="bia" src="bia.png" alt="">
         </div>
-        <input type="number" id="sugestao">
+        <input type="number" id="palpite">
         <button onClick="checarTentativa()">Tentar</button>
+        <div id="respostas"></div>
     </div>
     <script src="scripts.js"></script>
 </body>
